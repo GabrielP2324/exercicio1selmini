@@ -55,7 +55,7 @@ public class EX3 {
 					correctcount++;
 				}
 			}
-			System.out.println("Student " + (i+1) + " grade is: " + correctcount + "\t Passed? "+ (correctcount>=7 ? "YES":"NO"));
+			System.out.println("Aluno " + (i+1) + " recebeu nota: " + correctcount + "\t Passou? "+ (correctcount>=7 ? "SIM":"NÃO"));
 
 			correctcount=0;
 		}
