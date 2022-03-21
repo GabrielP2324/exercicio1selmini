@@ -18,6 +18,7 @@ public class EX3 {
 		char[] markscheme = new char[10];
 		int[] choices = new int[10];
 		for(int i = 0; i<students;i++) {
+			System.out.print("Respostas aluno "+ (i+1)+ ":");
 			for(int j = 0; j<exam[i].length;j++) {
 				choices[j] = rng.nextInt(5);
 				switch(choices[j]) {
