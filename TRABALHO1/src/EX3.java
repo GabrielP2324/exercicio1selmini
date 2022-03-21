@@ -42,9 +42,9 @@ public class EX3 {
 			}
 			System.out.println();
 		}
-		System.out.println("Input markscheme please");
+		System.out.println("Coloque as respostas corretas");
 		for(int i = 0; i<markscheme.length; i++) {
-			System.out.print("Correct "+ (i+1)+ " ");
+			System.out.print("Resposta "+ (i+1)+ ":");
 			markscheme[i] = in.next().charAt(0);
 		}
 		
